@@ -5,28 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.scss">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <title>Statistic</title>
 </head>
 <body>
     <div class="main">
         <div class="menu">
-            <a href=""><img src="img/menu/vk.png" alt="vk" class="menu-icon-vk" ></a>
-            <a href=""><img src="img/menu/1.png" alt=""></a>
-            <a href=""><img src="img/menu/2.png" alt=""></a>
-            <a href=""><img src="img/menu/3.png" alt=""></a>
-            <a href=""><img src="img/menu/4.png" alt=""></a>
-            <a href=""><img src="img/menu/5.png" alt=""></a>
-            <a href=""><img src="img/menu/6.png" alt=""></a>
-            <a href=""><img src="img/menu/7.png" alt=""></a>
+            <div class="menu-logo">
+                <a href="#"><i class="fab fa-vk menu-vk"></i></a>
+            </div>
+            <div class="menu-list">
+                <a href="#"><img src="img/menu/1.png" alt="" class="menu-icon"></a>
+                <a href="#"><img src="img/menu/2.png" alt="" class="menu-icon"></a>
+                <a href="#"><img src="img/menu/3.png" alt="" class="menu-icon"></a>
+                <a href="#"><img src="img/menu/4.png" alt="" class="menu-icon"></a>
+                <a href="#"><img src="img/menu/5.png" alt="" class="menu-icon"></a>
+                <a href="#"><img src="img/menu/6.png" alt="" class="menu-icon"></a>
+                <a href="#"><img src="img/menu/7.png" alt="" class="menu-icon"></a>
+            </div>
+            <div class="menu-switch">
+                <button></button>
+            </div>
         </div>
-        <div class="content">
-            <div class="header">
+        <div class="content-wrapper">
+            <div class="top-bar">
                 <h1>Statistic</h1>
-                <div class="search">
-                    <input type="text" placeholder="Search">
+                <div class="search-input-wrapper">
+                    <input type="text" class="search-input">
+                </div>
+                <div class="notification">
+                    <button class="notification-btn">
+                        <div class="notification-new"></div>
+                    </button>
+                </div>
+                <div class="profile">
+                    <div class="profile-name">Anya</div>
+                    <div class="profile-img-wrapper">
+                        <img src="" alt="#">
+                    </div>
+                    <button class="profile-btn"></button>
                 </div>
             </div>
-            
+            <div class="content">
+                <div class="content-line">
+                    <div class="content-block">
+                        <div class="content-block-top">
+                            <div class="content-block-top-title"></div>
+                            <button class="content-block-top-btn"></button>
+                        </div>
+                        <div class="content-block-info">
+                            <div class="content-block-info-text"></div>
+                            <div class="content-block-info-stat">
+                                <div class="content-block-info-stat-number"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-block">
+                        <div class="content-block-top">
+                            <div class="content-block-top-title"></div>
+                            <button class="content-block-top-btn"></button>
+                        </div>
+                        <div class="content-block-info">
+                            <div class="content-block-info-text"></div>
+                            <div class="content-block-info-stat">
+                                <div class="content-block-info-stat-number"></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-block">
+                        <div class="content-block-top">
+                            <div class="content-block-top-title"></div>
+                            <button class="content-block-top-btn"></button>
+                        </div>
+                        <div class="content-block-info">
+                            <div class="content-block-info-text"></div>
+                            <div class="content-block-info-stat">
+                                <div class="content-block-info-stat-number"></div>
+                                <!-- icon -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="content-line">
+                    <div class="content-block">
+                        <div class="content-block-top">
+                            <div class="content-block-top-title"></div>
+                            <div class="content-block-date">
+                                <div class="content-block-date-number"></div>
+                                <!-- icon -->
+                            </div>
+                            <div class="content-block-controls">
+                                <div class="content-block-control">
+                                    <input type="checkbox" name="" id="">
+                                    Total
+                                </div>
+                                <div class="content-block-control">
+                                    <input type="checkbox" name="" id="">
+                                    Follower
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>  
         </div>
     </div>
 

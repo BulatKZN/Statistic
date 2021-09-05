@@ -4,5 +4,41 @@ body {
     box-sizing: border-box;
 }
 
+.main {
+    display: flex;
+    margin-top: 46px;
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0 23px;
+
+        .menu-logo {
+            margin-bottom: 150px;
+
+            .fab {
+                font-size: 25px;
+            }
+        }
+
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+
+            .menu-icon:last-child {
+                margin-bottom: 0;
+            }
+
+            .menu-icon {
+                margin-bottom: 40px;
+            }
+
+            .menu-icon:hover {
+                background-color: royalblue;
+            }
+        }
+    }
+}
+
 
     
